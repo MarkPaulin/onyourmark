@@ -67,4 +67,6 @@ create_project <- function(path,
 
     usethis::use_git()
   })
+
+  usethis::proj_activate(path)
 }
